@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.app {
+  border-radius: 20px 20px 0px 0px;
+  background-color: #f1f2f6;
+  text-align: center;
+}
+.app-header {
+  background-color: #44bd32;
+  color: white;
+  padding: 25px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.balance-container {
+  padding: 15px 10px;
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.inc-exp-container {
+  padding: 10px 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.inc-exp-container > div {
+  flex: 1;
+}
+
+.inc-exp-container > div h4 {
+  padding: 10px;
+}
+
+.history-container {
+  padding: 10px 20px;
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+.history-container h3 {
+  padding: 10px;
+}
+.transaction-list li {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.deleteBtn {
+  background-color: #404040;
+  color: white;
+  width: 45px;
+  height: 40px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+}
+.deleteBtn:hover {
+  background-color: #222222;
+  color: #eb4d4b;
+  cursor: pointer;
+}
+
+.newTransaction-container {
+  padding: 10px 20px;
+}
+
+.newTransaction-container h3 {
+  padding: 10px;
+}
+.newTransaction-container .form-control input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+}
+.newTransaction-container .form-control label{
+  font-size: 18px;
+}
+.Addbtn {
+  background-color: #44bd32;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 15px 0px;
+  font-size: 18px;
+}
+.Addbtn:hover {
+  background-color: #0f6fb9;
+  cursor: pointer;
+}
+.minus {
+  background-color: #eb4d4b;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.plus {
+  background-color: #16a085;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+}
+
+footer{
+  background-color: #7f8fa6;
+  color:white;
+  padding: 25px;
+}
+footer a{
+  color: white;
+}
+
